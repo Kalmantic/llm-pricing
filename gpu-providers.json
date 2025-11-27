@@ -1,36 +1,94 @@
 [
   {
+    "provider": "coreweave",
+    "gpu": "H100 SXM (80GB)",
+    "hourlyRate": 6.15,
+    "tokensPerSecond": 130,
+    "model": "llama-3.1-70b",
+    "servingStack": "vLLM",
+    "inputPer1M": 0.64,
+    "outputPer1M": 0.82,
+    "lastVerified": "2024-11-28",
+    "source": "https://www.coreweave.com/pricing",
+    "note": "Per-GPU rate (8x instance = $49.24/hr), ClusterMAX Platinum"
+  },
+  {
+    "provider": "coreweave",
+    "gpu": "A100 SXM (80GB)",
+    "hourlyRate": 2.70,
+    "tokensPerSecond": 85,
+    "model": "llama-3.1-70b",
+    "servingStack": "vLLM",
+    "inputPer1M": 0.85,
+    "outputPer1M": 1.05,
+    "lastVerified": "2024-11-28",
+    "source": "https://www.coreweave.com/pricing",
+    "note": "Per-GPU rate (8x instance = $21.60/hr)"
+  },
+  {
     "provider": "modal",
     "gpu": "H100 (80GB)",
-    "hourlyRate": 3.50,
+    "hourlyRate": 3.95,
     "tokensPerSecond": 125,
     "model": "llama-3.1-70b",
     "servingStack": "vLLM",
-    "inputPer1M": 0.70,
-    "outputPer1M": 0.90,
+    "inputPer1M": 0.85,
+    "outputPer1M": 1.05,
+    "lastVerified": "2024-11-28",
+    "source": "https://modal.com/pricing",
     "note": "H100 80GB SXM5, ~50% utilization assumed"
   },
   {
     "provider": "modal",
     "gpu": "A100 (80GB)",
-    "hourlyRate": 2.80,
+    "hourlyRate": 2.50,
     "tokensPerSecond": 80,
     "model": "llama-3.1-70b",
     "servingStack": "vLLM",
-    "inputPer1M": 0.90,
-    "outputPer1M": 1.10,
+    "inputPer1M": 0.82,
+    "outputPer1M": 1.00,
+    "lastVerified": "2024-11-28",
+    "source": "https://modal.com/pricing",
     "note": "A100 80GB SXM4, ~50% utilization assumed"
   },
   {
     "provider": "modal",
-    "gpu": "A10G (24GB)",
+    "gpu": "A10 (24GB)",
     "hourlyRate": 1.10,
     "tokensPerSecond": 250,
     "model": "llama-3.1-8b",
     "servingStack": "vLLM",
     "inputPer1M": 0.12,
     "outputPer1M": 0.18,
-    "note": "A10G 24GB, optimized for smaller models"
+    "lastVerified": "2024-11-28",
+    "source": "https://modal.com/pricing",
+    "note": "A10 24GB, optimized for smaller models"
+  },
+  {
+    "provider": "lambda",
+    "gpu": "H100 SXM (80GB)",
+    "hourlyRate": 2.99,
+    "tokensPerSecond": 125,
+    "model": "llama-3.1-70b",
+    "servingStack": "vLLM",
+    "inputPer1M": 0.64,
+    "outputPer1M": 0.80,
+    "lastVerified": "2024-11-28",
+    "source": "https://lambda.ai/service/gpu-cloud",
+    "note": "8x H100 config rate, ClusterMAX Silver"
+  },
+  {
+    "provider": "lambda",
+    "gpu": "A100 SXM (80GB)",
+    "hourlyRate": 1.79,
+    "tokensPerSecond": 80,
+    "model": "llama-3.1-70b",
+    "servingStack": "vLLM",
+    "inputPer1M": 0.58,
+    "outputPer1M": 0.72,
+    "lastVerified": "2024-11-28",
+    "source": "https://lambda.ai/service/gpu-cloud",
+    "note": "8x A100 80GB SXM config rate"
   },
   {
     "provider": "runpod",
@@ -39,8 +97,10 @@
     "tokensPerSecond": 125,
     "model": "llama-3.1-70b",
     "servingStack": "vLLM",
-    "inputPer1M": 0.60,
-    "outputPer1M": 0.75,
+    "inputPer1M": 0.64,
+    "outputPer1M": 0.80,
+    "lastVerified": "2024-11-28",
+    "source": "https://www.runpod.io/gpu-instance/pricing",
     "note": "Community Cloud pricing, ~50% utilization"
   },
   {
@@ -52,6 +112,8 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.65,
     "outputPer1M": 0.80,
+    "lastVerified": "2024-11-28",
+    "source": "https://www.runpod.io/gpu-instance/pricing",
     "note": "Community Cloud pricing, ~50% utilization"
   },
   {
@@ -63,29 +125,9 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.06,
     "outputPer1M": 0.08,
+    "lastVerified": "2024-11-28",
+    "source": "https://www.runpod.io/gpu-instance/pricing",
     "note": "Community Cloud, consumer GPU"
-  },
-  {
-    "provider": "lambda",
-    "gpu": "H100 (80GB)",
-    "hourlyRate": 2.49,
-    "tokensPerSecond": 125,
-    "model": "llama-3.1-70b",
-    "servingStack": "vLLM",
-    "inputPer1M": 0.50,
-    "outputPer1M": 0.65,
-    "note": "Lambda Cloud on-demand"
-  },
-  {
-    "provider": "lambda",
-    "gpu": "A100 (80GB)",
-    "hourlyRate": 1.29,
-    "tokensPerSecond": 80,
-    "model": "llama-3.1-70b",
-    "servingStack": "vLLM",
-    "inputPer1M": 0.42,
-    "outputPer1M": 0.52,
-    "note": "Lambda Cloud on-demand"
   },
   {
     "provider": "together-serverless",
@@ -96,7 +138,9 @@
     "servingStack": "Together Runtime",
     "inputPer1M": 0.88,
     "outputPer1M": 0.88,
-    "note": "Serverless per-token pricing"
+    "lastVerified": "2024-11-28",
+    "source": "https://www.together.ai/pricing",
+    "note": "Serverless per-token pricing, ClusterMAX Gold"
   },
   {
     "provider": "fireworks-serverless",
@@ -107,6 +151,8 @@
     "servingStack": "Fireworks Runtime",
     "inputPer1M": 0.90,
     "outputPer1M": 0.90,
+    "lastVerified": "2024-11-28",
+    "source": "https://fireworks.ai/pricing",
     "note": "Serverless per-token pricing"
   },
   {
@@ -116,9 +162,11 @@
     "tokensPerSecond": 125,
     "model": "llama-3.1-70b",
     "servingStack": "vLLM",
-    "inputPer1M": 0.36,
-    "outputPer1M": 0.46,
-    "note": "Spot market, prices vary"
+    "inputPer1M": 0.38,
+    "outputPer1M": 0.48,
+    "lastVerified": "2024-11-28",
+    "source": "https://vast.ai/pricing",
+    "note": "Spot market, prices vary significantly"
   },
   {
     "provider": "vast.ai",
@@ -129,6 +177,8 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.30,
     "outputPer1M": 0.38,
-    "note": "Spot market, prices vary"
+    "lastVerified": "2024-11-28",
+    "source": "https://vast.ai/pricing",
+    "note": "Spot market, prices vary significantly"
   }
 ]
