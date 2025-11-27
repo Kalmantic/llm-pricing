@@ -8,7 +8,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.64,
     "outputPer1M": 0.82,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://www.coreweave.com/pricing",
     "note": "Per-GPU rate (8x instance = $49.24/hr), ClusterMAX Platinum"
   },
@@ -21,7 +21,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.85,
     "outputPer1M": 1.05,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://www.coreweave.com/pricing",
     "note": "Per-GPU rate (8x instance = $21.60/hr)"
   },
@@ -34,7 +34,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.85,
     "outputPer1M": 1.05,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://modal.com/pricing",
     "note": "H100 80GB SXM5, ~50% utilization assumed"
   },
@@ -47,7 +47,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.82,
     "outputPer1M": 1.00,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://modal.com/pricing",
     "note": "A100 80GB SXM4, ~50% utilization assumed"
   },
@@ -60,7 +60,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.12,
     "outputPer1M": 0.18,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://modal.com/pricing",
     "note": "A10 24GB, optimized for smaller models"
   },
@@ -73,7 +73,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.64,
     "outputPer1M": 0.80,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://lambda.ai/service/gpu-cloud",
     "note": "8x H100 config rate, ClusterMAX Silver"
   },
@@ -86,7 +86,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.58,
     "outputPer1M": 0.72,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://lambda.ai/service/gpu-cloud",
     "note": "8x A100 80GB SXM config rate"
   },
@@ -99,7 +99,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.64,
     "outputPer1M": 0.80,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://www.runpod.io/gpu-instance/pricing",
     "note": "Community Cloud pricing, ~50% utilization"
   },
@@ -112,7 +112,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.65,
     "outputPer1M": 0.80,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://www.runpod.io/gpu-instance/pricing",
     "note": "Community Cloud pricing, ~50% utilization"
   },
@@ -125,7 +125,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.06,
     "outputPer1M": 0.08,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://www.runpod.io/gpu-instance/pricing",
     "note": "Community Cloud, consumer GPU"
   },
@@ -138,7 +138,7 @@
     "servingStack": "Together Runtime",
     "inputPer1M": 0.88,
     "outputPer1M": 0.88,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://www.together.ai/pricing",
     "note": "Serverless per-token pricing, ClusterMAX Gold"
   },
@@ -151,7 +151,7 @@
     "servingStack": "Fireworks Runtime",
     "inputPer1M": 0.90,
     "outputPer1M": 0.90,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://fireworks.ai/pricing",
     "note": "Serverless per-token pricing"
   },
@@ -164,7 +164,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.38,
     "outputPer1M": 0.48,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://vast.ai/pricing",
     "note": "Spot market, prices vary significantly"
   },
@@ -177,7 +177,7 @@
     "servingStack": "vLLM",
     "inputPer1M": 0.30,
     "outputPer1M": 0.38,
-    "lastVerified": "2024-11-28",
+    "lastVerified": "2025-11-28",
     "source": "https://vast.ai/pricing",
     "note": "Spot market, prices vary significantly"
   }
